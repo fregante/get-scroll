@@ -10,7 +10,9 @@
     "url": "twitter.com/bfred_it"
   },
   "keywords": [
-    ""
+    "browser",
+    "dom",
+    "scroll"
   ],
   "files": [
     "index.js",
