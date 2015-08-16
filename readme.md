@@ -2,17 +2,14 @@
 
 > Micro module to get the scroll position (top or left) in the browser
 
-## Example usage
+## Usage
 
-```html
-<script src="dist/get-scroll.min.js"></script>
-<script>
-	var currentScrollTop = getScroll.top()
-	var currentScrollLeft = getScroll.left();
-</script>
+```js
+var currentScrollTop = getScroll.top();
+var currentScrollLeft = getScroll.left();
 ```
 
-## With Browserify and/or Babel
+## With browserify
 
 ```sh
 npm install --save get-scroll
