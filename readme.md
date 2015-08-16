@@ -4,15 +4,18 @@
 
 ## Install
 
+Use the file `dist/get-scroll.min.js` or, if you use browserify, download it this way:
+
 ```
 $ npm install --save get-scroll
 ```
 
-or use the content of the file `get-scroll.min.js` if you don't use `browserify`
 
 ## Usage
 
 ```js
+// only if browserify: var getScroll = require('get-scroll');
+
 var currentScrollTop = getScroll(); // or getScroll.top()
 var currentScrollLeft = getScroll.left();
 ```
@@ -28,11 +31,11 @@ let currentScrollLeft = getScrollLeft()
 
 ## API
 
-### getScroll() or getScroll.top() or getScrollTop()
+### `getScroll()` _or `getScroll.top()`or `getScrollTop()`_
 
 Returns the vertical scroll position of the document.
 
-### getScroll.left() or getScrollLeft()
+### `getScroll.left()` _or `getScrollLeft()`_
 
 Returns the horizontal scroll position of the document.
 
