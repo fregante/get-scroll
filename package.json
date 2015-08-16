@@ -1,6 +1,6 @@
 {
   "name": "get-scroll",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Micro module to get the scroll position (top or left) in the browser",
   "license": "MIT",
   "repository": "bfred-it/get-scroll",
@@ -25,16 +25,12 @@
     "export": "browserify index.js --standalone getScroll > dist/get-scroll.js",
     "minify": "uglifyjs dist/get-scroll.js > dist/get-scroll.min.js",
     "es5": "babel index.js > dist/get-scroll.node.js",
-    "postinstall": "npm run es5",
-    "prepublish": "npm run build"
+    "prepublish": "npm run es5"
   },
   "browserify": {
     "transform": [
       "babelify"
     ]
-  },
-  "dependencies": {
-    "babel": "^5.8.21"
   },
   "devDependencies": {
     "babel": "^5.8.21",
