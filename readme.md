@@ -1,4 +1,4 @@
-# get-scroll
+# get-scroll [![module size](https://badge-size.herokuapp.com/bfred-it/get-scroll/master/dist/get-scroll.min.js) ![module gzipped size](https://badge-size.herokuapp.com/bfred-it/get-scroll/master/dist/get-scroll.min.js?compression=gzip)](https://github.com/bfred-it/get-scroll/blob/master/dist/get-scroll.min.js)
 
 > Micro module to get the scroll position (top or left) in the browser
 
