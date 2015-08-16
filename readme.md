@@ -2,25 +2,27 @@
 
 > Micro module to get the scroll position (top or left) in the browser
 
-## Install
+## Example usage
 
-Use the file `dist/get-scroll.min.js` or, if you use browserify, download it this way:
-
+```html
+<script src="dist/get-scroll.min.js"></script>
+<script>
+	var currentScrollTop = getScroll.top()
+	var currentScrollLeft = getScroll.left();
+</script>
 ```
-$ npm install --save get-scroll
+
+## With Browserify and/or Babel
+
+```sh
+npm install --save get-scroll
 ```
-
-
-## Usage
 
 ```js
-// only if browserify: var getScroll = require('get-scroll');
-
-var currentScrollTop = getScroll(); // or getScroll.top()
-var currentScrollLeft = getScroll.left();
+var getScroll = require('get-scroll');
 ```
 
-## Alternative usage in ES6
+### Alternative usage in ES6
 
 ```js
 import {getScrollLeft, getScrollTop} from 'get-scroll';
@@ -31,7 +33,7 @@ let currentScrollLeft = getScrollLeft()
 
 ## API
 
-### `getScroll()` _or `getScroll.top()`or `getScrollTop()`_
+### `getScroll.top()` _or `getScrollTop()`_
 
 Returns the vertical scroll position of the document.
 
