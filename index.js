@@ -3,8 +3,7 @@ function getScrollTop () {
 	return window.pageYOffset || document.body.scrollTop;
 }
 
-function getScrollLeft () {
+getScrollTop.getScrollTop = getScrollTop.top = module.exports = getScrollTop;
+getScrollTop.getScrollLeft = getScrollTop.left = function () {
 	return window.pageXOffset || document.body.scrollLeft;
 }
-export default getScrollTop;
-export {getScrollLeft, getScrollTop, getScrollLeft as left, getScrollTop as top};
