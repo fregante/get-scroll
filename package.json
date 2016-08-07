@@ -12,22 +12,19 @@
   "keywords": [
     "browser",
     "dom",
-    "scroll"
+    "scroll",
+    "scrolltop",
+    "scrollleft",
+    "page",
+    "document",
+    "window"
   ],
   "files": [
-    "index.js",
-    "dist/get-scroll.node.js"
+    "dist/get-scroll.common-js.js",
+    "dist/get-scroll.es-modules.js",
+    "dist/get-scroll.browser.js"
   ],
-  "main": "dist/get-scroll.node.js",
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "build": "./node_modules/bfred-npm-bundler/tasks/all.sh index.js getScroll get-scroll",
-    "to-npm": "./node_modules/bfred-npm-bundler/tasks/to-npm.sh index.js get-scroll",
-    "prepublish": "npm run to-npm"
-  },
-  "devDependencies": {
-    "bfred-npm-bundler": "^1.1.2"
-  }
+  "main": "dist/get-scroll.common-js.js",
+  "module": "dist/get-scroll.es-modules.js",
+  "jsnext:main": "dist/get-scroll.es-modules.js"
 }
