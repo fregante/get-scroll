@@ -1,6 +1,6 @@
 {
   "name": "get-scroll",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Micro module to get the scroll position (top or left) in the browser",
   "license": "MIT",
   "repository": "bfred-it/get-scroll",
