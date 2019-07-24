@@ -2,23 +2,19 @@
   "name": "get-scroll",
   "version": "2.0.0",
   "description": "Micro module to get the scroll position (top or left) in the browser",
-  "license": "MIT",
-  "repository": "bfred-it/get-scroll",
-  "author": {
-    "name": "Federico Brigante",
-    "email": "bfred-it@users.noreply.github.com",
-    "url": "twitter.com/bfred_it"
-  },
   "keywords": [
     "browser",
-    "dom",
-    "scroll",
-    "scrolltop",
-    "scrollleft",
-    "page",
     "document",
+    "dom",
+    "page",
+    "scroll",
+    "scrollleft",
+    "scrolltop",
     "window"
   ],
+  "repository": "fregante/get-scroll",
+  "license": "MIT",
+  "author": "Federico Brigante <opensource@bfred.it> (bfred.it)",
   "files": [
     "dist/get-scroll.common-js.js",
     "dist/get-scroll.es-modules.js",

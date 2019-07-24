@@ -1,4 +1,4 @@
-# get-scroll [![gzipped size][badge-gzip]](#readme) [![npm version][badge-version]][npm-url] 
+# get-scroll [![gzipped size][badge-gzip]](#readme) [![npm version][badge-version]][npm-url]
 
 > Micro module to get the scroll position (top or left) in the browser
 
@@ -41,9 +41,9 @@ No dependencies.
 
 ## License
 
-MIT © [Federico Brigante](http://twitter.com/bfred_it)
+MIT © [Federico Brigante](https://bfred.it)
 
 
-  [badge-gzip]: https://badges.herokuapp.com/size/github/bfred-it/get-scroll/master/dist/get-scroll.browser.js?gzip=true&label=gzipped%20size
+  [badge-gzip]: https://badges.herokuapp.com/size/github/fregante/get-scroll/master/dist/get-scroll.browser.js?gzip=true&label=gzipped%20size
   [badge-version]: https://img.shields.io/npm/v/get-scroll.svg
   [npm-url]: https://www.npmjs.com/package/get-scroll
